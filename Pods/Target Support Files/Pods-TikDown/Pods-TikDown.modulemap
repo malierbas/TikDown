@@ -1,0 +1,6 @@
+framework module Pods_TikDown {
+  umbrella header "Pods-TikDown-umbrella.h"
+
+  export *
+  module * { export * }
+}

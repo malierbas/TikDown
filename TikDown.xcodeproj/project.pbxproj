@@ -7,15 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC22D0A96251751B65C8682 /* Pods_TikDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA172F439D6D2C8237CC7503 /* Pods_TikDown.framework */; };
+		EB145B28283A606F00571B16 /* HashtagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB145B27283A606F00571B16 /* HashtagModel.swift */; };
+		EB145B2A283BAD6700571B16 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB145B29283BAD6700571B16 /* SubscriptionModel.swift */; };
+		EB145B2C283BC31200571B16 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB145B2B283BC31200571B16 /* IAPManager.swift */; };
+		EB145B2E283D11AE00571B16 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB145B2D283D11AE00571B16 /* Double+Extension.swift */; };
+		EB73104D2836682600477BB2 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73104C2836682600477BB2 /* AppUtils.swift */; };
+		EB73104F283675D300477BB2 /* VideoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73104E283675D300477BB2 /* VideoDetailViewModel.swift */; };
+		EB73105228367B9D00477BB2 /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73105128367B9D00477BB2 /* LocalStorageManager.swift */; };
+		EB73105428367C4500477BB2 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73105328367C4500477BB2 /* UserDefaults+Extension.swift */; };
+		EB7310572836876100477BB2 /* DownloadAwemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7310562836876100477BB2 /* DownloadAwemeModel.swift */; };
+		EB7310592836884900477BB2 /* DownloadOtherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7310582836884900477BB2 /* DownloadOtherModel.swift */; };
+		EB76B3882837B7C800BA6229 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76B3872837B7C800BA6229 /* UIButton+Extension.swift */; };
+		EB76B38B283833A300BA6229 /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76B38A283833A300BA6229 /* PaywallViewController.swift */; };
+		EB76B38D283834EE00BA6229 /* PaywallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76B38C283834EE00BA6229 /* PaywallViewModel.swift */; };
+		EB76B3A2283A5BF500BA6229 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB76B3A1283A5BF500BA6229 /* GoogleService-Info.plist */; };
 		EB76C5BF2834E7D000D5926D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5BE2834E7D000D5926D /* AppDelegate.swift */; };
 		EB76C5C12834E7D000D5926D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5C02834E7D000D5926D /* SceneDelegate.swift */; };
-		EB76C5C32834E7D000D5926D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5C22834E7D000D5926D /* ViewController.swift */; };
+		EB76C5C32834E7D000D5926D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5C22834E7D000D5926D /* MainViewController.swift */; };
 		EB76C5C62834E7D000D5926D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76C5C42834E7D000D5926D /* Main.storyboard */; };
 		EB76C5C82834E7D200D5926D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB76C5C72834E7D200D5926D /* Assets.xcassets */; };
 		EB76C5CB2834E7D200D5926D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76C5C92834E7D200D5926D /* LaunchScreen.storyboard */; };
-		EB76C5D62834E7D200D5926D /* TikDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5D52834E7D200D5926D /* TikDownTests.swift */; };
-		EB76C5E02834E7D200D5926D /* TikDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5DF2834E7D200D5926D /* TikDownUITests.swift */; };
-		EB76C5E22834E7D200D5926D /* TikDownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5E12834E7D200D5926D /* TikDownUITestsLaunchTests.swift */; };
+		EB76C5F62834EC8500D5926D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5F52834EC8500D5926D /* BaseViewController.swift */; };
+		EB76C5F92834EEE300D5926D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C5F82834EEE300D5926D /* String+Extension.swift */; };
+		EB76C6052834F2C800D5926D /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C5FC2834F2C800D5926D /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		EB76C6062834F2C800D5926D /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C5FD2834F2C800D5926D /* SFPRODISPLAYREGULAR.OTF */; };
+		EB76C6072834F2C800D5926D /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C5FE2834F2C800D5926D /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		EB76C6082834F2C800D5926D /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C5FF2834F2C800D5926D /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		EB76C6092834F2C800D5926D /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C6002834F2C800D5926D /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		EB76C60A2834F2C800D5926D /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C6012834F2C800D5926D /* SFPRODISPLAYBOLD.OTF */; };
+		EB76C60B2834F2C800D5926D /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C6022834F2C800D5926D /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
+		EB76C60C2834F2C800D5926D /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C6032834F2C800D5926D /* SFPRODISPLAYMEDIUM.OTF */; };
+		EB76C60D2834F2C800D5926D /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EB76C6042834F2C800D5926D /* SFPRODISPLAYTHINITALIC.OTF */; };
+		EB76C60F2834F57B00D5926D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C60E2834F57B00D5926D /* UIView+Extension.swift */; };
+		EB76C6112834F69900D5926D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6102834F69900D5926D /* HomeViewModel.swift */; };
+		EB76C6132834F98D00D5926D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6122834F98D00D5926D /* Constants.swift */; };
+		EB76C6172835021F00D5926D /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6162835021F00D5926D /* TabbarController.swift */; };
+		EB76C619283503A800D5926D /* Tabbar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C618283503A700D5926D /* Tabbar+Extension.swift */; };
+		EB76C61C283503D000D5926D /* TabbarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C61B283503D000D5926D /* TabbarTransition.swift */; };
+		EB76C6202835078100D5926D /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C61F2835078100D5926D /* TrendingViewController.swift */; };
+		EB76C6222835079800D5926D /* TrendingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6212835079700D5926D /* TrendingCVC.swift */; };
+		EB76C624283507EA00D5926D /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C623283507EA00D5926D /* TrendingModel.swift */; };
+		EB76C62628350A9600D5926D /* TrendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C62528350A9600D5926D /* TrendingViewModel.swift */; };
+		EB76C629283513F600D5926D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C628283513F600D5926D /* SearchViewController.swift */; };
+		EB76C62C2835140700D5926D /* SearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C62B2835140700D5926D /* SearchTVC.swift */; };
+		EB76C62E2835159D00D5926D /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C62D2835159D00D5926D /* SearchViewModel.swift */; };
+		EB76C63028351A8100D5926D /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C62F28351A8100D5926D /* TextField+Extension.swift */; };
+		EB76C63228351CBE00D5926D /* SearchResultCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C63128351CBE00D5926D /* SearchResultCVC.swift */; };
+		EB76C6362835241F00D5926D /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6352835241F00D5926D /* SavedViewController.swift */; };
+		EB76C63828352D0300D5926D /* ScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C63728352D0300D5926D /* ScrollView+Extension.swift */; };
+		EB76C63A28352E5200D5926D /* SavedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C63928352E5200D5926D /* SavedViewModel.swift */; };
+		EB76C63C2835301D00D5926D /* SavedMusicCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C63B2835301D00D5926D /* SavedMusicCVC.swift */; };
+		EB76C63E2835302800D5926D /* SavedVideosCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C63D2835302800D5926D /* SavedVideosCVC.swift */; };
+		EB76C641283538F200D5926D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C640283538F200D5926D /* SettingsViewController.swift */; };
+		EB76C6442835391E00D5926D /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6432835391D00D5926D /* SettingsTVC.swift */; };
+		EB76C64728354EE600D5926D /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C64628354EE600D5926D /* VideoDetailViewController.swift */; };
+		EB76C649283563D100D5926D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C648283563D100D5926D /* Networking.swift */; };
+		EB76C64B283575B700D5926D /* VideoDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C64A283575B700D5926D /* VideoDownloadModel.swift */; };
+		EB76C64D283578A700D5926D /* DownloadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C64C283578A700D5926D /* DownloadData.swift */; };
+		EB76C64F283578E100D5926D /* Authdor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C64E283578E100D5926D /* Authdor.swift */; };
+		EB76C6512835791000D5926D /* MusicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6502835791000D5926D /* MusicInfo.swift */; };
+		EB76C65328358C7200D5926D /* ImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C65228358C7200D5926D /* ImageView+Extension.swift */; };
+		EB76C6562835975400D5926D /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C6552835975400D5926D /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +89,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046C193D8047F26AD0C91FE3 /* Pods-TikDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikDown.release.xcconfig"; path = "Target Support Files/Pods-TikDown/Pods-TikDown.release.xcconfig"; sourceTree = "<group>"; };
+		436085BFFA82361C127A5298 /* Pods-TikDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikDown.debug.xcconfig"; path = "Target Support Files/Pods-TikDown/Pods-TikDown.debug.xcconfig"; sourceTree = "<group>"; };
+		EA172F439D6D2C8237CC7503 /* Pods_TikDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB145B27283A606F00571B16 /* HashtagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagModel.swift; sourceTree = "<group>"; };
+		EB145B29283BAD6700571B16 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		EB145B2B283BC31200571B16 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		EB145B2D283D11AE00571B16 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		EB73104C2836682600477BB2 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		EB73104E283675D300477BB2 /* VideoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailViewModel.swift; sourceTree = "<group>"; };
+		EB73105128367B9D00477BB2 /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		EB73105328367C4500477BB2 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		EB7310562836876100477BB2 /* DownloadAwemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAwemeModel.swift; sourceTree = "<group>"; };
+		EB7310582836884900477BB2 /* DownloadOtherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOtherModel.swift; sourceTree = "<group>"; };
+		EB76B3872837B7C800BA6229 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		EB76B38A283833A300BA6229 /* PaywallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewController.swift; sourceTree = "<group>"; };
+		EB76B38C283834EE00BA6229 /* PaywallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewModel.swift; sourceTree = "<group>"; };
+		EB76B3A1283A5BF500BA6229 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB76C5BB2834E7D000D5926D /* TikDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB76C5BE2834E7D000D5926D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB76C5C02834E7D000D5926D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB76C5C22834E7D000D5926D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB76C5C22834E7D000D5926D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EB76C5C52834E7D000D5926D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB76C5C72834E7D200D5926D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB76C5CA2834E7D200D5926D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB76C5CC2834E7D200D5926D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB76C5D12834E7D200D5926D /* TikDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB76C5D52834E7D200D5926D /* TikDownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownTests.swift; sourceTree = "<group>"; };
 		EB76C5DB2834E7D200D5926D /* TikDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB76C5DF2834E7D200D5926D /* TikDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownUITests.swift; sourceTree = "<group>"; };
-		EB76C5E12834E7D200D5926D /* TikDownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB76C5F52834EC8500D5926D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EB76C5F82834EEE300D5926D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		EB76C5FC2834F2C800D5926D /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		EB76C5FD2834F2C800D5926D /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		EB76C5FE2834F2C800D5926D /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLDITALIC.OTF; sourceTree = "<group>"; };
+		EB76C5FF2834F2C800D5926D /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		EB76C6002834F2C800D5926D /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
+		EB76C6012834F2C800D5926D /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		EB76C6022834F2C800D5926D /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
+		EB76C6032834F2C800D5926D /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		EB76C6042834F2C800D5926D /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
+		EB76C60E2834F57B00D5926D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		EB76C6102834F69900D5926D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EB76C6122834F98D00D5926D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EB76C6162835021F00D5926D /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		EB76C618283503A700D5926D /* Tabbar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tabbar+Extension.swift"; sourceTree = "<group>"; };
+		EB76C61B283503D000D5926D /* TabbarTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarTransition.swift; sourceTree = "<group>"; };
+		EB76C61F2835078100D5926D /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		EB76C6212835079700D5926D /* TrendingCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCVC.swift; sourceTree = "<group>"; };
+		EB76C623283507EA00D5926D /* TrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingModel.swift; sourceTree = "<group>"; };
+		EB76C62528350A9600D5926D /* TrendingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewModel.swift; sourceTree = "<group>"; };
+		EB76C628283513F600D5926D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EB76C62B2835140700D5926D /* SearchTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTVC.swift; sourceTree = "<group>"; };
+		EB76C62D2835159D00D5926D /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		EB76C62F28351A8100D5926D /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		EB76C63128351CBE00D5926D /* SearchResultCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCVC.swift; sourceTree = "<group>"; };
+		EB76C6352835241F00D5926D /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		EB76C63728352D0300D5926D /* ScrollView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollView+Extension.swift"; sourceTree = "<group>"; };
+		EB76C63928352E5200D5926D /* SavedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewModel.swift; sourceTree = "<group>"; };
+		EB76C63B2835301D00D5926D /* SavedMusicCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMusicCVC.swift; sourceTree = "<group>"; };
+		EB76C63D2835302800D5926D /* SavedVideosCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVideosCVC.swift; sourceTree = "<group>"; };
+		EB76C640283538F200D5926D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EB76C6432835391D00D5926D /* SettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		EB76C64628354EE600D5926D /* VideoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
+		EB76C648283563D100D5926D /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		EB76C64A283575B700D5926D /* VideoDownloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDownloadModel.swift; sourceTree = "<group>"; };
+		EB76C64C283578A700D5926D /* DownloadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadData.swift; sourceTree = "<group>"; };
+		EB76C64E283578E100D5926D /* Authdor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authdor.swift; sourceTree = "<group>"; };
+		EB76C6502835791000D5926D /* MusicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfo.swift; sourceTree = "<group>"; };
+		EB76C65228358C7200D5926D /* ImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Extension.swift"; sourceTree = "<group>"; };
+		EB76C6552835975400D5926D /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC22D0A96251751B65C8682 /* Pods_TikDown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +185,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3940BED36F275A3168446F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				436085BFFA82361C127A5298 /* Pods-TikDown.debug.xcconfig */,
+				046C193D8047F26AD0C91FE3 /* Pods-TikDown.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0C8CB3D9BE704CF4EB46C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA172F439D6D2C8237CC7503 /* Pods_TikDown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB73105028367B9100477BB2 /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				EB73105128367B9D00477BB2 /* LocalStorageManager.swift */,
+			);
+			path = StorageManager;
+			sourceTree = "<group>";
+		};
+		EB7310552836875100477BB2 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				EB7310562836876100477BB2 /* DownloadAwemeModel.swift */,
+				EB7310582836884900477BB2 /* DownloadOtherModel.swift */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		EB76B3892838339100BA6229 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				EB76B38A283833A300BA6229 /* PaywallViewController.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		EB76B3922839227900BA6229 /* SearchTopData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchTopData;
+			sourceTree = "<group>";
+		};
 		EB76C5B22834E7D000D5926D = {
 			isa = PBXGroup;
 			children = (
 				EB76C5BD2834E7D000D5926D /* TikDown */,
-				EB76C5D42834E7D200D5926D /* TikDownTests */,
-				EB76C5DE2834E7D200D5926D /* TikDownUITests */,
 				EB76C5BC2834E7D000D5926D /* Products */,
+				3940BED36F275A3168446F04 /* Pods */,
+				E0C8CB3D9BE704CF4EB46C58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,32 +257,254 @@
 		EB76C5BD2834E7D000D5926D /* TikDown */ = {
 			isa = PBXGroup;
 			children = (
-				EB76C5BE2834E7D000D5926D /* AppDelegate.swift */,
-				EB76C5C02834E7D000D5926D /* SceneDelegate.swift */,
-				EB76C5C22834E7D000D5926D /* ViewController.swift */,
-				EB76C5C42834E7D000D5926D /* Main.storyboard */,
+				EB76B3A1283A5BF500BA6229 /* GoogleService-Info.plist */,
 				EB76C5C72834E7D200D5926D /* Assets.xcassets */,
-				EB76C5C92834E7D200D5926D /* LaunchScreen.storyboard */,
 				EB76C5CC2834E7D200D5926D /* Info.plist */,
+				EB76C5F42834EB1D00D5926D /* UI */,
+				EB76C5EE2834EA8100D5926D /* App */,
+				EB76C5EF2834EA9400D5926D /* View */,
+				EB76C5F02834EA9D00D5926D /* Model */,
+				EB76C5F32834EABC00D5926D /* ViewModel */,
+				EB76C5F22834EAAC00D5926D /* Networking */,
+				EB76C5F12834EAA500D5926D /* Component */,
+				EB76C5F72834EEC200D5926D /* Utilities */,
 			);
 			path = TikDown;
 			sourceTree = "<group>";
 		};
-		EB76C5D42834E7D200D5926D /* TikDownTests */ = {
+		EB76C5EE2834EA8100D5926D /* App */ = {
 			isa = PBXGroup;
 			children = (
-				EB76C5D52834E7D200D5926D /* TikDownTests.swift */,
+				EB76C5BE2834E7D000D5926D /* AppDelegate.swift */,
+				EB76C5C02834E7D000D5926D /* SceneDelegate.swift */,
+				EB76C5F52834EC8500D5926D /* BaseViewController.swift */,
 			);
-			path = TikDownTests;
+			path = App;
 			sourceTree = "<group>";
 		};
-		EB76C5DE2834E7D200D5926D /* TikDownUITests */ = {
+		EB76C5EF2834EA9400D5926D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EB76C5DF2834E7D200D5926D /* TikDownUITests.swift */,
-				EB76C5E12834E7D200D5926D /* TikDownUITestsLaunchTests.swift */,
+				EB76B3892838339100BA6229 /* Paywall */,
+				EB76C64528354EBE00D5926D /* VideoDetail */,
+				EB76C63F283538DF00D5926D /* Settings */,
+				EB76C6332835240D00D5926D /* Saved */,
+				EB76C627283513E800D5926D /* Search */,
+				EB76C61D2835076B00D5926D /* Trending */,
+				EB76C6152835017C00D5926D /* Download */,
+				EB76C6142835017600D5926D /* Tabbar */,
 			);
-			path = TikDownUITests;
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB76C5F02834EA9D00D5926D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB76B3922839227900BA6229 /* SearchTopData */,
+				EB7310552836875100477BB2 /* Download */,
+				EB76C654283596A700D5926D /* Search */,
+				EB76C623283507EA00D5926D /* TrendingModel.swift */,
+				EB76C64A283575B700D5926D /* VideoDownloadModel.swift */,
+				EB76C64C283578A700D5926D /* DownloadData.swift */,
+				EB76C64E283578E100D5926D /* Authdor.swift */,
+				EB76C6502835791000D5926D /* MusicInfo.swift */,
+				EB145B27283A606F00571B16 /* HashtagModel.swift */,
+				EB145B29283BAD6700571B16 /* SubscriptionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB76C5F12834EAA500D5926D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		EB76C5F22834EAAC00D5926D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C648283563D100D5926D /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EB76C5F32834EABC00D5926D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C6102834F69900D5926D /* HomeViewModel.swift */,
+				EB76C62528350A9600D5926D /* TrendingViewModel.swift */,
+				EB76C62D2835159D00D5926D /* SearchViewModel.swift */,
+				EB76C63928352E5200D5926D /* SavedViewModel.swift */,
+				EB73104E283675D300477BB2 /* VideoDetailViewModel.swift */,
+				EB76B38C283834EE00BA6229 /* PaywallViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB76C5F42834EB1D00D5926D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C5C42834E7D000D5926D /* Main.storyboard */,
+				EB76C5C92834E7D200D5926D /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EB76C5F72834EEC200D5926D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EB73104C2836682600477BB2 /* AppUtils.swift */,
+				EB76C6122834F98D00D5926D /* Constants.swift */,
+				EB73105028367B9100477BB2 /* StorageManager */,
+				EB76C5FB2834F2BA00D5926D /* Font */,
+				EB76C5FA2834EEE800D5926D /* Extensions */,
+				EB76C61A283503BA00D5926D /* Animations */,
+				EB145B2B283BC31200571B16 /* IAPManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EB76C5FA2834EEE800D5926D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C5F82834EEE300D5926D /* String+Extension.swift */,
+				EB76C60E2834F57B00D5926D /* UIView+Extension.swift */,
+				EB76C618283503A700D5926D /* Tabbar+Extension.swift */,
+				EB76C62F28351A8100D5926D /* TextField+Extension.swift */,
+				EB76C63728352D0300D5926D /* ScrollView+Extension.swift */,
+				EB76C65228358C7200D5926D /* ImageView+Extension.swift */,
+				EB73105328367C4500477BB2 /* UserDefaults+Extension.swift */,
+				EB76B3872837B7C800BA6229 /* UIButton+Extension.swift */,
+				EB145B2D283D11AE00571B16 /* Double+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EB76C5FB2834F2BA00D5926D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C6002834F2C800D5926D /* SFPRODISPLAYBLACKITALIC.OTF */,
+				EB76C6012834F2C800D5926D /* SFPRODISPLAYBOLD.OTF */,
+				EB76C5FC2834F2C800D5926D /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				EB76C5FF2834F2C800D5926D /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				EB76C6032834F2C800D5926D /* SFPRODISPLAYMEDIUM.OTF */,
+				EB76C5FD2834F2C800D5926D /* SFPRODISPLAYREGULAR.OTF */,
+				EB76C5FE2834F2C800D5926D /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
+				EB76C6042834F2C800D5926D /* SFPRODISPLAYTHINITALIC.OTF */,
+				EB76C6022834F2C800D5926D /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EB76C6142835017600D5926D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C6162835021F00D5926D /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		EB76C6152835017C00D5926D /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C5C22834E7D000D5926D /* MainViewController.swift */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		EB76C61A283503BA00D5926D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C61B283503D000D5926D /* TabbarTransition.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		EB76C61D2835076B00D5926D /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C61E2835077700D5926D /* Cells */,
+				EB76C61F2835078100D5926D /* TrendingViewController.swift */,
+			);
+			path = Trending;
+			sourceTree = "<group>";
+		};
+		EB76C61E2835077700D5926D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C6212835079700D5926D /* TrendingCVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EB76C627283513E800D5926D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C62A283513FA00D5926D /* Cell */,
+				EB76C628283513F600D5926D /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		EB76C62A283513FA00D5926D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C62B2835140700D5926D /* SearchTVC.swift */,
+				EB76C63128351CBE00D5926D /* SearchResultCVC.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EB76C6332835240D00D5926D /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C6342835241400D5926D /* Cells */,
+				EB76C6352835241F00D5926D /* SavedViewController.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		EB76C6342835241400D5926D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C63B2835301D00D5926D /* SavedMusicCVC.swift */,
+				EB76C63D2835302800D5926D /* SavedVideosCVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EB76C63F283538DF00D5926D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C642283538F500D5926D /* Cell */,
+				EB76C640283538F200D5926D /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EB76C642283538F500D5926D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C6432835391D00D5926D /* SettingsTVC.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EB76C64528354EBE00D5926D /* VideoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C64628354EE600D5926D /* VideoDetailViewController.swift */,
+			);
+			path = VideoDetail;
+			sourceTree = "<group>";
+		};
+		EB76C654283596A700D5926D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EB76C6552835975400D5926D /* SearchResult.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +514,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB76C5E52834E7D200D5926D /* Build configuration list for PBXNativeTarget "TikDown" */;
 			buildPhases = (
+				9B5BBF11DB9DCCAA69CF3D2C /* [CP] Check Pods Manifest.lock */,
 				EB76C5B72834E7D000D5926D /* Sources */,
 				EB76C5B82834E7D000D5926D /* Frameworks */,
 				EB76C5B92834E7D000D5926D /* Resources */,
+				97E7B7659EA5D5E8127A1409 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +613,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB76B3A2283A5BF500BA6229 /* GoogleService-Info.plist in Resources */,
+				EB76C60C2834F2C800D5926D /* SFPRODISPLAYMEDIUM.OTF in Resources */,
 				EB76C5CB2834E7D200D5926D /* LaunchScreen.storyboard in Resources */,
+				EB76C6052834F2C800D5926D /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
 				EB76C5C82834E7D200D5926D /* Assets.xcassets in Resources */,
+				EB76C6062834F2C800D5926D /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				EB76C60B2834F2C800D5926D /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
+				EB76C60D2834F2C800D5926D /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
+				EB76C60A2834F2C800D5926D /* SFPRODISPLAYBOLD.OTF in Resources */,
+				EB76C6082834F2C800D5926D /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				EB76C6092834F2C800D5926D /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
+				EB76C6072834F2C800D5926D /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
 				EB76C5C62834E7D000D5926D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +645,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97E7B7659EA5D5E8127A1409 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikDown/Pods-TikDown-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikDown/Pods-TikDown-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TikDown/Pods-TikDown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5BBF11DB9DCCAA69CF3D2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TikDown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB76C5B72834E7D000D5926D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB76C5C32834E7D000D5926D /* ViewController.swift in Sources */,
+				EB76C65328358C7200D5926D /* ImageView+Extension.swift in Sources */,
+				EB76C61C283503D000D5926D /* TabbarTransition.swift in Sources */,
+				EB145B2A283BAD6700571B16 /* SubscriptionModel.swift in Sources */,
+				EB76C5C32834E7D000D5926D /* MainViewController.swift in Sources */,
+				EB7310572836876100477BB2 /* DownloadAwemeModel.swift in Sources */,
+				EB76C5F62834EC8500D5926D /* BaseViewController.swift in Sources */,
+				EB76C6112834F69900D5926D /* HomeViewModel.swift in Sources */,
 				EB76C5BF2834E7D000D5926D /* AppDelegate.swift in Sources */,
+				EB145B28283A606F00571B16 /* HashtagModel.swift in Sources */,
+				EB76C6202835078100D5926D /* TrendingViewController.swift in Sources */,
+				EB73104F283675D300477BB2 /* VideoDetailViewModel.swift in Sources */,
+				EB76C62E2835159D00D5926D /* SearchViewModel.swift in Sources */,
+				EB73105228367B9D00477BB2 /* LocalStorageManager.swift in Sources */,
+				EB76C64D283578A700D5926D /* DownloadData.swift in Sources */,
+				EB76C5F92834EEE300D5926D /* String+Extension.swift in Sources */,
+				EB76C62628350A9600D5926D /* TrendingViewModel.swift in Sources */,
+				EB76C6362835241F00D5926D /* SavedViewController.swift in Sources */,
+				EB76C6442835391E00D5926D /* SettingsTVC.swift in Sources */,
 				EB76C5C12834E7D000D5926D /* SceneDelegate.swift in Sources */,
+				EB76C60F2834F57B00D5926D /* UIView+Extension.swift in Sources */,
+				EB145B2E283D11AE00571B16 /* Double+Extension.swift in Sources */,
+				EB76C629283513F600D5926D /* SearchViewController.swift in Sources */,
+				EB76C6222835079800D5926D /* TrendingCVC.swift in Sources */,
+				EB76C6512835791000D5926D /* MusicInfo.swift in Sources */,
+				EB76C64728354EE600D5926D /* VideoDetailViewController.swift in Sources */,
+				EB76C619283503A800D5926D /* Tabbar+Extension.swift in Sources */,
+				EB73105428367C4500477BB2 /* UserDefaults+Extension.swift in Sources */,
+				EB76C6172835021F00D5926D /* TabbarController.swift in Sources */,
+				EB76C63028351A8100D5926D /* TextField+Extension.swift in Sources */,
+				EB76C6562835975400D5926D /* SearchResult.swift in Sources */,
+				EB76B38D283834EE00BA6229 /* PaywallViewModel.swift in Sources */,
+				EB76C624283507EA00D5926D /* TrendingModel.swift in Sources */,
+				EB76C63228351CBE00D5926D /* SearchResultCVC.swift in Sources */,
+				EB76C63828352D0300D5926D /* ScrollView+Extension.swift in Sources */,
+				EB76C63E2835302800D5926D /* SavedVideosCVC.swift in Sources */,
+				EB73104D2836682600477BB2 /* AppUtils.swift in Sources */,
+				EB76C62C2835140700D5926D /* SearchTVC.swift in Sources */,
+				EB76C63A28352E5200D5926D /* SavedViewModel.swift in Sources */,
+				EB76B38B283833A300BA6229 /* PaywallViewController.swift in Sources */,
+				EB76C64B283575B700D5926D /* VideoDownloadModel.swift in Sources */,
+				EB76C641283538F200D5926D /* SettingsViewController.swift in Sources */,
+				EB76C649283563D100D5926D /* Networking.swift in Sources */,
+				EB76C63C2835301D00D5926D /* SavedMusicCVC.swift in Sources */,
+				EB145B2C283BC31200571B16 /* IAPManager.swift in Sources */,
+				EB76C6132834F98D00D5926D /* Constants.swift in Sources */,
+				EB76C64F283578E100D5926D /* Authdor.swift in Sources */,
+				EB7310592836884900477BB2 /* DownloadOtherModel.swift in Sources */,
+				EB76B3882837B7C800BA6229 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +747,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB76C5D62834E7D200D5926D /* TikDownTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +754,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB76C5E02834E7D200D5926D /* TikDownUITests.swift in Sources */,
-				EB76C5E22834E7D200D5926D /* TikDownUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,17 +910,22 @@
 		};
 		EB76C5E62834E7D200D5926D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436085BFFA82361C127A5298 /* Pods-TikDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = YDLS558923;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TikDown/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow photo library additions";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow photo library usage";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,27 +933,33 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.TikDown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tikdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EB76C5E72834E7D200D5926D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046C193D8047F26AD0C91FE3 /* Pods-TikDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = YDLS558923;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TikDown/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow photo library additions";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow photo library usage";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,11 +967,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.TikDown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tikdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
